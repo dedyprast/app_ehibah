@@ -1,4 +1,4 @@
-import 'package:app_ehibah/pages/football_player_page.dart';
+import 'package:app_ehibah/pages/login_screen_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(brightness: Brightness.dark),
-      home: const FootballPlayerPage(),
+      home: const LoginScreenPage(),
     );
   }
 }

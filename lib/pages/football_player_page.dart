@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_underscores
+
 import 'package:flutter/material.dart';
 import 'package:app_ehibah/widgets/football_player_widget.dart';
 
@@ -27,6 +29,13 @@ class _FootballPlayerPageState extends State<FootballPlayerPage> {
     {"name": "Kevin De Bruyne", "country": "Belgium", "imageUrl": null},
     {"name": "Robert Lewandowski", "country": "Poland", "imageUrl": null},
     {"name": "Virgil van Dijk", "country": "Netherlands", "imageUrl": null},
+    {
+      "name": "Rizky Ridho R",
+      "country": "Indonesia",
+      "imageUrl":
+          "https://upload.wikimedia.org/wikipedia/commons/4/48/Rizky_Ridho_-_53615135042.jpg",
+    },
+    {"name": "Marcelino Ferdinan", "country": "Indonesia", "imageUrl": null},
   ];
 
   final favoritePlayers = <String>{};
